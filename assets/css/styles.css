@@ -1,0 +1,315 @@
+/*Fuentes */
+
+@font-face {
+    font-family: "fajala";
+    src: url(../fonts/fuente.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*Estilos Generales */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif, Helvetica, Arial;
+    text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+body {
+    background-image: url(../img/bg6.jpeg);
+}
+
+
+/*Cabecera */
+
+#header {
+    width: 85%;
+    height: auto;
+    background-color: transparent;
+    margin: 0px auto;
+    /*border: 1px solid white;*/
+}
+
+
+.bx-wrapper, .bx-viewport{
+    height: 450px !important;
+    margin-top: 20px;
+    margin-left: -5px;
+
+}
+
+.bx-wrapper{
+    margin-left: 80px;
+    height: 530px;
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+
+
+}
+
+
+
+.bx-wrapper img{
+    margin-left: 30px;
+}
+/*Logo*/
+
+#logo {
+    float: left;
+    width: 540px;
+    height: 110px;
+    margin-bottom: -25px;
+}
+
+#logo a {
+    font-family: "fajala", Helvetica;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.986);
+    text-shadow: 0px 0px 0px rgb(0, 0, 0), 1px 1px 1px black, 2px 2px 2px black;
+    transition: all 300ms;
+    line-height: 90px;
+    margin-left: 10px;
+}
+
+#logo a:hover {
+    cursor: pointer;
+    text-shadow: 0px 0px 0px rgb(212, 11, 152), 2px 2px 2px rgb(212, 11, 152), 3px 3px 3px rgb(212, 11, 152);
+}
+
+
+/*Menú*/
+
+#nav {
+    clear: both;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(25, 163, 197, 0.781);
+    border: 1px solid rgba(179, 9, 231, 0.459);
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(231, 9, 146, 0.459);
+    overflow: hidden;
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#nav ul li {
+    float: left;
+    line-height: 45px;
+    border-right: 2px solid rgba(255, 51, 170, 0.527);
+}
+
+#nav ul li:hover {
+    background-color: rgb(199, 11, 143);
+    font-weight: bold;
+}
+
+#nav ul li a {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.952);
+}
+
+
+/*Contendio*/
+
+#container {
+    width: 85%;
+    height: auto;
+    background-color: transparent;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*Barra lateral*/
+
+#sidebar {
+    display: block;
+    float: right;
+    width: 27%;
+    height: auto;
+}
+
+.block-aside {
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 27px;
+    background-color: rgba(6, 13, 27, 0.582);
+    padding: 22px;
+    margin-right: 25px;
+    box-shadow: 0px 0px 1px rgb(212, 11, 152), 0px 3px 7px rgb(212, 11, 152), 0px 0px 1px rgb(212, 11, 152) inset, 0px -3px 2px rgb(212, 11, 152) inset;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-family: "fajala";
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 1px rgb(11, 155, 212), 0px 1px 1px rgb(11, 155, 212), 0px 2px 1px rgb(11, 155, 212);
+}
+
+label,
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+}
+
+.txt {
+    border: 1px solid rgb(11, 155, 212);
+    padding: 5px;
+}
+
+.txt:hover {
+    box-shadow: 3px 3px 5px rgba(235, 15, 206, 0.966);
+}
+
+label {
+    color: white;
+}
+
+input [type="text"],
+input[type="email"],
+input[type="password"] {
+    border: 1px solid rgb(11, 155, 212);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input [type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    box-shadow: 3px 3px 5px rgba(235, 15, 206, 0.966);
+}
+
+input[type="button"],
+input[type="submit"] {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    display: block;
+    border-radius: 5px;
+    padding: 7px;
+    color: white;
+    background-color: rgba(25, 163, 197, 0.781);
+    border: 2px solid rgba(218, 53, 135, 0.884);
+    cursor: pointer;
+    width: 120px;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    box-shadow: 4px 3px 5px rgba(218, 53, 135, 0.884);
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+#lead {
+    float: left;
+    width: 717px;
+    height: 600px;
+    background-color: rgba(6, 13, 27, 0.582);
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(25, 163, 197, 0.781);
+    margin-left: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#lead a {
+    color: white;
+}
+
+#lead h1 {
+    font-size: 32px;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(15, 154, 235, 0.966);
+    font-family: "fajala";
+}
+
+#lead h2 {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: "fajala";
+    margin-top: 25px;
+    text-shadow: 1px 1px 1px rgba(15, 154, 235, 0.966);
+}
+
+#lead h2:hover {
+    text-shadow: 0px 0px 0px rgb(212, 11, 152), 2px 2px 2px rgb(212, 11, 152), 3px 3px 3px rgb(212, 11, 152);
+}
+
+#lead p {
+    margin-top: 8px;
+}
+
+#view a {
+    display: block;
+    border-radius: 2px;
+    padding: 20px;
+    color: white;
+    background-color: rgba(25, 163, 197, 0.781);
+    border: 2px solid rgba(218, 53, 135, 0.884);
+    cursor: pointer;
+    width: 180px;
+    margin: 0px auto;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: auto;
+    border-radius: 5px;
+}
+
+#view a:hover {
+    box-shadow: 4px 3px 5px rgba(218, 53, 135, 0.884);
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+
+/*Pie de pagina */
+
+#food {
+    width: 85%;
+    clear: both;
+    margin: 0px auto;
+    background-color: rgba(25, 163, 197, 0.781);
+    border: 1px solid rgb(238, 23, 202);
+    border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+    color: rgb(230, 223, 223);
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgb(212, 11, 152), 5px 0px 7px rgb(212, 11, 152), 5px 0px 7px rgb(212, 11, 152) inset, -3px 0px 2px rgb(212, 11, 152) inset;
+}
+
+#food p {
+    font-family: Helvetica, sans-serif;
+}
